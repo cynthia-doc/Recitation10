@@ -76,6 +76,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
         return this.move || !this.move;
     }
 
+    //reply to comment
     public boolean isMoveOver() {
         System.out.println(move);
         return !this.move;
